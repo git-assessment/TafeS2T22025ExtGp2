@@ -10,10 +10,10 @@
 
     <Grid>
         <TextBlock x:Name="mainMenuHeader" HorizontalAlignment="Center" Height="72" Margin="0,374,0,0" TextWrapping="Wrap" Text="Universal Calculator" Width="1500" SelectionChanged="TextBlock_SelectionChanged" FontSize="48" FontWeight="Bold" VerticalAlignment="Top" TextAlignment="Center"/>
-        <Button x:Name="btn_mathCalculator" Content="Math Calculator" Height="76" Margin="0,470,0,0" Width="420"  FontSize="36" VerticalAlignment="Top" HorizontalAlignment="Center"/>
-        <Button x:Name="btn_mortgageCalculator" Content="Mortgage Calculator" Height="76" Margin="0,578,0,0"  Width="420"  FontSize="36" VerticalAlignment="Top" HorizontalAlignment="Center"/>
-        <Button x:Name="btn_currencyCalculator" Content="Currency Calculator" Height="76" Margin="0,690,0,0" Width="420"  FontSize="36" VerticalAlignment="Top" HorizontalAlignment="Center"/>
-        <Button x:Name="btn_exit" Content="Exit" Height="76" Margin="0,890,0,0"  Width="420"  FontSize="36" VerticalAlignment="Top" HorizontalAlignment="Center"/>
-        <Image x:Name="img_logo" HorizontalAlignment="Left" Height="358" Margin="960,0,0,0" VerticalAlignment="Top" Width="530" Source="/Images/abacus.jpg"/>
+        <Button x:Name="btn_mathCalculator" Content="Math Calculator" Height="76" Margin="0,470,0,0" Width="420"  FontSize="36" VerticalAlignment="Top" HorizontalAlignment="Center" Click="btn_mathCalculator_Click"/>
+        <Button x:Name="btn_mortgageCalculator" Content="Mortgage Calculator" Height="76" Margin="0,578,0,0"  Width="420"  FontSize="36" VerticalAlignment="Top" HorizontalAlignment="Center" Click="btn_mortgageCalculator_Click"/>
+        <Button x:Name="btn_currencyCalculator" Content="Currency Calculator" Height="76" Margin="0,690,0,0" Width="420"  FontSize="36" VerticalAlignment="Top" HorizontalAlignment="Center" Click="btn_currencyCalculator_Click"/>
+        <Button x:Name="btn_exit" Content="Exit" Height="76" Margin="0,890,0,0"  Width="420"  FontSize="36" VerticalAlignment="Top" HorizontalAlignment="Center" Click="btn_exit_Click"/>
+        <Image x:Name="img_logo" HorizontalAlignment="Center" Height="358" Margin="0,10,0,0" VerticalAlignment="Top" Width="530" Source="/Images/abacus.jpg"/>
     </Grid>
 </Page>

@@ -31,5 +31,25 @@ namespace Calculator
 		{
 
 		}
+
+		private void btn_mathCalculator_Click(object sender, RoutedEventArgs e)
+		{
+			this.Frame.Navigate(typeof(MainPage));
+		}
+
+		private void btn_mortgageCalculator_Click(object sender, RoutedEventArgs e)
+		{
+			this.Frame.Navigate(typeof(MortgageCalculator));
+		}
+
+		private void btn_currencyCalculator_Click(object sender, RoutedEventArgs e)
+		{
+			this.Frame.Navigate(typeof(CurrencyConvertor));
+		}
+
+		private void btn_exit_Click(object sender, RoutedEventArgs e)
+		{
+			Application.Current.Exit();
+		}
 	}
 }
